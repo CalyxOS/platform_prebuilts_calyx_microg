@@ -5,6 +5,7 @@ LOCAL_MODULE := GmsCore
 LOCAL_SRC_FILES := GmsCore/GmsCore.apk
 LOCAL_CERTIFICATE := $(DEFAULT_SYSTEM_DEV_CERTIFICATE)
 LOCAL_MODULE_CLASS := APPS
+LOCAL_PRIVILEGED_MODULE := true
 LOCAL_REQUIRED_MODULES := privapp-permissions-microg.xml default-permissions-microg.xml whitelist-microg.xml microg.xml
 include $(BUILD_PREBUILT)
 
@@ -13,6 +14,7 @@ LOCAL_MODULE := FakeStore
 LOCAL_SRC_FILES := FakeStore/FakeStore.apk
 LOCAL_CERTIFICATE := $(DEFAULT_SYSTEM_DEV_CERTIFICATE)
 LOCAL_MODULE_CLASS := APPS
+LOCAL_PRIVILEGED_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
