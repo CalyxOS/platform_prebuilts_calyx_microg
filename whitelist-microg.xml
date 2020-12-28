@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <config>
     <allow-in-power-save package="com.google.android.gms" />
+
+    <!-- Specify the explicit set of other applications whose app data directories are
+        accessible by other applications. -->
+    <app-data-isolation-whitelisted-app package="com.google.android.gms" />
+
 </config>
