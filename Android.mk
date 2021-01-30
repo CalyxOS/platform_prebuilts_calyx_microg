@@ -10,6 +10,13 @@ LOCAL_REQUIRED_MODULES := privapp-permissions-microg.xml default-permissions-mic
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := GsfProxy
+LOCAL_SRC_FILES := GsfProxy/GsfProxy.apk
+LOCAL_CERTIFICATE := $(DEFAULT_SYSTEM_DEV_CERTIFICATE)
+LOCAL_MODULE_CLASS := APPS
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := FakeStore
 LOCAL_SRC_FILES := FakeStore/FakeStore.apk
 LOCAL_CERTIFICATE := $(DEFAULT_SYSTEM_DEV_CERTIFICATE)
