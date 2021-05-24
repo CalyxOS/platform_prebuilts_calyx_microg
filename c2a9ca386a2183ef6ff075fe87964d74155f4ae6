@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "de637254_820ef733",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-24T21:13:45Z",
+      "side": 1,
+      "message": "See https://cs.android.com/android/platform/superproject/+/android-11.0.0_r1:frameworks/base/core/java/com/android/server/SystemConfig.java\n\ndata-usage-save and unthrottled-location is fine\n\nignore-location-settings not so much, wouldn\u0027t be used here anyway.",
+      "revId": "c2a9ca386a2183ef6ff075fe87964d74155f4ae6",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
