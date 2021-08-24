@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "82d8b691_0b887fa7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-08-24T16:54:27Z",
+      "side": 1,
+      "message": "Source pushed directly since gerrit didn\u0027t like me pushing a merge containing a change (logspam fix) we already merged here.",
+      "revId": "80e54bec00a0a846b2cf31a570ba5866b2713faf",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
