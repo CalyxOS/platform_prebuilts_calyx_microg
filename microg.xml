@@ -1,7 +1,5 @@
 <?xml version='1.0' encoding='utf-8' standalone='yes' ?>
 <map>
-    <boolean name="checkin_enable_service" value="true" />
-    <boolean name="gcm_enable_mcs_service" value="true" />
     <set name="location_backends">
         <string>org.fitchfamily.android.dejavu/org.fitchfamily.android.dejavu.BackendService/6081d318477a555a74ed65d11598a52e91d5fdb7446b07bc2cb88dd5c0f94944</string>
         <string>org.microg.nlp.backend.ichnaea/org.microg.nlp.backend.ichnaea.BackendService/6ad8bcb1300536d2157d144f6b77cb09551048bd78aaf91522c4ab12ec2c526d</string>
