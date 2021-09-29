@@ -30,7 +30,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := DejaVuLocationService
 LOCAL_SRC_FILES := backends/DejaVuLocationService.apk
-LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_CERTIFICATE := $(LOCAL_PATH)/certs/org.calyxos.nlp.dejavu
 LOCAL_MODULE_CLASS := APPS
 LOCAL_PRODUCT_MODULE := true
 include $(BUILD_PREBUILT)
@@ -38,7 +38,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := MozillaNlpBackend
 LOCAL_SRC_FILES := backends/MozillaNlpBackend.apk
-LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_CERTIFICATE := $(LOCAL_PATH)/certs/org.calyxos.nlp.ichnaea
 LOCAL_MODULE_CLASS := APPS
 LOCAL_PRODUCT_MODULE := true
 include $(BUILD_PREBUILT)
@@ -46,7 +46,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := NominatimNlpBackend
 LOCAL_SRC_FILES := backends/NominatimNlpBackend.apk
-LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_CERTIFICATE := $(LOCAL_PATH)/certs/org.calyxos.nlp.nominatim
 LOCAL_MODULE_CLASS := APPS
 LOCAL_PRODUCT_MODULE := true
 include $(BUILD_PREBUILT)

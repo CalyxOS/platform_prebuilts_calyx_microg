@@ -3,10 +3,10 @@
     <boolean name="checkin_enable_service" value="true" />
     <boolean name="gcm_enable_mcs_service" value="true" />
     <set name="location_backends">
-        <string>org.fitchfamily.android.dejavu/org.fitchfamily.android.dejavu.BackendService/6081d318477a555a74ed65d11598a52e91d5fdb7446b07bc2cb88dd5c0f94944</string>
-        <string>org.microg.nlp.backend.ichnaea/org.microg.nlp.backend.ichnaea.BackendService/6ad8bcb1300536d2157d144f6b77cb09551048bd78aaf91522c4ab12ec2c526d</string>
+        <string>org.fitchfamily.android.dejavu/org.fitchfamily.android.dejavu.BackendService/3a060b6240d3f4b1deeb97890368a3ba6cf55bfedc237345e62baa916772ee56</string>
+        <string>org.microg.nlp.backend.ichnaea/org.microg.nlp.backend.ichnaea.BackendService/92e4faa4af5c314947561b5dd267d9d09eb927adcadc75f93ce785a5ec7821f5</string>
     </set>
     <set name="geocoder_backends">
-        <string>org.microg.nlp.backend.nominatim/org.microg.nlp.backend.nominatim.BackendService/44226aa6b4ff69627283a28348976371558f039561f776208da08c294286d5d2</string>
+        <string>org.microg.nlp.backend.nominatim/org.microg.nlp.backend.nominatim.BackendService/889ff73f01799eb96b8badafa26d0aba9b8a9112ffca4a9c4b3ee7e2865594b8</string>
     </set>
 </map>
