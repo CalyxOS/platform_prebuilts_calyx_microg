@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2fd767ed_7799c229",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-02-10T20:29:22Z",
+      "side": 1,
+      "message": "Shipping the APKs from 12 seems easiest.\n\nNo version specific changes in this app.",
+      "revId": "b92deda730ee64eddc94ee7f615269db81655bf1",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
