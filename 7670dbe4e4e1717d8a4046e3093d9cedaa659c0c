@@ -16,6 +16,23 @@
       "message": "This doesn\u0027t seem to be required but given priv-app we need this or otherwise boot fails.\n\nIf we wanted to, we could remove perm from APK",
       "revId": "7670dbe4e4e1717d8a4046e3093d9cedaa659c0c",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d757e4b7_6ec33dec",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-10-21T21:32:33Z",
+      "side": 1,
+      "message": "https://review.calyxos.org/c/CalyxOS/platform_external_microg_GmsCore/+/14109",
+      "revId": "7670dbe4e4e1717d8a4046e3093d9cedaa659c0c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
