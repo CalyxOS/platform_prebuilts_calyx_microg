@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "82760b52_c5787eb2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-10-21T21:03:14Z",
+      "side": 1,
+      "message": "This doesn\u0027t seem to be required but given priv-app we need this or otherwise boot fails.\n\nIf we wanted to, we could remove perm from APK",
+      "revId": "7670dbe4e4e1717d8a4046e3093d9cedaa659c0c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
