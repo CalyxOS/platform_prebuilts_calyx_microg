@@ -16,6 +16,24 @@
       "message": "APK needs to be rebuilt",
       "revId": "9969a9c67e76091ce2f03fb4195d74f07567dd68",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c7a019ee_b04f1744",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-10-21T16:32:31Z",
+      "side": 1,
+      "message": "Done.",
+      "parentUuid": "8418c38b_1bd6fcb8",
+      "revId": "9969a9c67e76091ce2f03fb4195d74f07567dd68",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
