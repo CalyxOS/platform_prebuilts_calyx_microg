@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "be16252a_92f2ea0b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2022-11-02T13:04:45Z",
+      "side": 1,
+      "message": "Tested on bluejay, works as intended (reverted to known working build, installed new build with this patch)",
+      "revId": "b448e592afa0eb77a2efc8654ddb98b36fb9b3b1",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
