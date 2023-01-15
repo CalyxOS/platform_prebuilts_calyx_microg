@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "540601a2_63a305f7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-01-15T14:01:08Z",
+      "side": 1,
+      "message": "```\n01-15 19:30:20.467  5193  5193 E AndroidRuntime: FATAL EXCEPTION: main\n01-15 19:30:20.467  5193  5193 E AndroidRuntime: Process: com.google.android.gms, PID: 5193\n01-15 19:30:20.467  5193  5193 E AndroidRuntime: java.lang.RuntimeException: Unable to get provider com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider: java.lang.C\nlassNotFoundException: Didn\u0027t find class \"com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider\" on path: DexPathList[[zip file \"/product/priv-app/GmsCore/GmsCore.apk\n\"],nativeLibraryDirectories\u003d[/product/priv-app/GmsCore/lib/arm64, /product/priv-app/GmsCore/GmsCore.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]\n01-15 19:30:20.467  5193  5193 E AndroidRuntime:        at android.app.ActivityThread.installProvider(ActivityThread.java:7467)\n01-15 19:30:20.467  5193  5193 E AndroidRuntime:        at android.app.ActivityThread.installContentProviders(ActivityThread.java:6973)\n01-15 19:30:20.467  5193  5193 E AndroidRuntime:        at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6744)\n01-15 19:30:20.467  5193  5193 E AndroidRuntime:        at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)\n01-15 19:30:20.467  5193  5193 E AndroidRuntime:        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2133)\n01-15 19:30:20.467  5193  5193 E AndroidRuntime:        at android.os.Handler.dispatchMessage(Handler.java:106)\n01-15 19:30:20.467  5193  5193 E AndroidRuntime:        at android.os.Looper.loopOnce(Looper.java:201)\n01-15 19:30:20.467  5193  5193 E AndroidRuntime:        at android.os.Looper.loop(Looper.java:288)\n01-15 19:30:20.467  5193  5193 E AndroidRuntime:        at android.app.ActivityThread.main(ActivityThread.java:7872)\n01-15 19:30:20.467  5193  5193 E AndroidRuntime:        at java.lang.reflect.Method.invoke(Native Method)\n01-15 19:30:20.467  5193  5193 E AndroidRuntime:        at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)\n01-15 19:30:20.467  5193  5193 E AndroidRuntime:        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)\n01-15 19:30:20.467  5193  5193 E AndroidRuntime: Caused by: java.lang.ClassNotFoundException: Didn\u0027t find class \"com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider\n\" on path: DexPathList[[zip file \"/product/priv-app/GmsCore/GmsCore.apk\"],nativeLibraryDirectories\u003d[/product/priv-app/GmsCore/lib/arm64, /product/priv-app/GmsCore/GmsCore.apk!/li\nb/arm64-v8a, /system/lib64, /system_ext/lib64]]\n01-15 19:30:20.467  5193  5193 E AndroidRuntime:        at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:259)\n01-15 19:30:20.467  5193  5193 E AndroidRuntime:        at java.lang.ClassLoader.loadClass(ClassLoader.java:379)\n01-15 19:30:20.467  5193  5193 E AndroidRuntime:        at java.lang.ClassLoader.loadClass(ClassLoader.java:312)\n01-15 19:30:20.467  5193  5193 E AndroidRuntime:        at android.app.AppComponentFactory.instantiateProvider(AppComponentFactory.java:147)\n01-15 19:30:20.467  5193  5193 E AndroidRuntime:        at androidx.core.app.CoreComponentFactory.instantiateProvider(CoreComponentFactory.java:67)\n01-15 19:30:20.467  5193  5193 E AndroidRuntime:        at android.app.ActivityThread.installProvider(ActivityThread.java:7451)\n01-15 19:30:20.467  5193  5193 E AndroidRuntime:        ... 11 more\n```",
+      "revId": "c4aeb0177757a4d16687ba8443569e9538e614cf",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
