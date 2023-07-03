@@ -2,7 +2,8 @@ LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := GmsCore
-LOCAL_SRC_FILES := GmsCore/GmsCore.apk
+LOCAL_SRC_FILES := GmsCore/play-services-core-withMapbox-withNearby-release.apk
+LOCAL_MODULE_STEM := GmsCore.apk
 LOCAL_CERTIFICATE := $(LOCAL_PATH)/certs/microg
 LOCAL_MODULE_CLASS := APPS
 LOCAL_PRIVILEGED_MODULE := true
@@ -14,7 +15,8 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := GsfProxy
-LOCAL_SRC_FILES := GsfProxy/GsfProxy.apk
+LOCAL_SRC_FILES := GsfProxy/services-framework-proxy-release-unsigned.apk
+LOCAL_MODULE_STEM := GsfProxy.apk
 LOCAL_CERTIFICATE := $(LOCAL_PATH)/certs/microg
 LOCAL_MODULE_CLASS := APPS
 LOCAL_PRODUCT_MODULE := true
@@ -22,7 +24,8 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := FakeStore
-LOCAL_SRC_FILES := FakeStore/FakeStore.apk
+LOCAL_SRC_FILES := FakeStore/fake-store-release-unsigned.apk
+LOCAL_MODULE_STEM := FakeStore.apk
 LOCAL_CERTIFICATE := $(LOCAL_PATH)/certs/microg
 LOCAL_MODULE_CLASS := APPS
 LOCAL_PRIVILEGED_MODULE := true
