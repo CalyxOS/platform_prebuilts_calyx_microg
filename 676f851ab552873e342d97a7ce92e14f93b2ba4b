@@ -16,6 +16,24 @@
       "message": "Hold, wrong version name\n\n",
       "revId": "676f851ab552873e342d97a7ce92e14f93b2ba4b",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0f01ef62_56c1e6f7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-07-03T20:26:03Z",
+      "side": 1,
+      "message": "Fixed.",
+      "parentUuid": "568b16b6_a9c9b5d0",
+      "revId": "676f851ab552873e342d97a7ce92e14f93b2ba4b",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
