@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "17848de3_97097f41",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-07-06T17:59:51Z",
+      "side": 1,
+      "message": "target_files.zip META/apkcerts.txt\n\nBefore Rename: name\u003d\"GmsCore.apk\" \u003c- OK\nPre Fixup: name\u003d\"GmsCore.apk.apk\" \u003c- Doesn\u0027t work, hacky fix 18251\nWith this change: name\u003d\"GmsCore.apk\" \u003c- OK",
+      "revId": "96781e9c644d88ca9fc07a956720e4f8c76b1c15",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
