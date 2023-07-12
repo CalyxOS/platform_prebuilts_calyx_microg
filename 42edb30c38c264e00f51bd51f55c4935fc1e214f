@@ -16,6 +16,24 @@
       "message": "These need to stay for the migration. They\u0027re harmless after the removal anyways so let\u0027s not remove them.",
       "revId": "42edb30c38c264e00f51bd51f55c4935fc1e214f",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "394fe152_6de94a67",
+        "filename": "microg.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-07-12T20:04:14Z",
+      "side": 0,
+      "message": "Upstream already has migration in play-services-base/core/src/main/kotlin/org/microg/gms/settings/SettingsProvider.kt so just re-adding this should do it.",
+      "parentUuid": "d57f51fc_9af4c214",
+      "revId": "42edb30c38c264e00f51bd51f55c4935fc1e214f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
