@@ -20,6 +20,24 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "960aaa8e_6542cccf",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 5
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-08-24T16:10:18Z",
+      "side": 1,
+      "message": "It\u0027s still the commit from way back. Sometimes things take time to ship.\n\nI have commit dates turned on in my git log now.\n\n~/.gitconfig\n```\n[format]\n        pretty \u003d fuller\n```",
+      "parentUuid": "b9657845_370c2084",
+      "revId": "e86b60ae0d3ff1b34fb02cd09a7704b76f1d0bc8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "30501c2e_f0563e08",
         "filename": "/PATCHSET_LEVEL",
         "patchSetId": 5
