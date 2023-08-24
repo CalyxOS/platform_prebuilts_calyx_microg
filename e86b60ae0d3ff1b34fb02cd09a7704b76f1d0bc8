@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b9657845_370c2084",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 5
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-08-24T16:05:27Z",
+      "side": 1,
+      "message": "Very nit, but seeing this older date in the git log is a bit confusing. Can just Ack this if you want",
+      "revId": "e86b60ae0d3ff1b34fb02cd09a7704b76f1d0bc8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "30501c2e_f0563e08",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-08-24T16:05:27Z",
+      "side": 1,
+      "message": "Nit, ",
+      "revId": "e86b60ae0d3ff1b34fb02cd09a7704b76f1d0bc8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
