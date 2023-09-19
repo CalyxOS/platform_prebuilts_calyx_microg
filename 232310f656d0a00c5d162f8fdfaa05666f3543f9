@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3bca6bec_710cd147",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-09-19T07:46:21Z",
+      "side": 1,
+      "message": "New tags are up. Also, let\u0027s rebase to make the version codes (which include git commit count) sane again.",
+      "revId": "232310f656d0a00c5d162f8fdfaa05666f3543f9",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
