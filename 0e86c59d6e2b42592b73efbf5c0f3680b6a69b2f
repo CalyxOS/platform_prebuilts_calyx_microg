@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "30efed1e_37afd3c7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-11-01T11:12:00Z",
+      "side": 1,
+      "message": "Will rebuild with prod keys.",
+      "revId": "0e86c59d6e2b42592b73efbf5c0f3680b6a69b2f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
