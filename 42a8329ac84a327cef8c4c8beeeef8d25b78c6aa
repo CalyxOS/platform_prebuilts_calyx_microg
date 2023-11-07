@@ -16,6 +16,23 @@
       "message": "The issues raised in the original revert are still valid.\n\nAlso see: 14246: [TEMP]: SettingsProvider: Hacky workaround to avoid changing user settings | https://review.calyxos.org/c/CalyxOS/platform_external_microg_GmsCore/+/14246",
       "revId": "42a8329ac84a327cef8c4c8beeeef8d25b78c6aa",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8cc5cb93_905b7a75",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-11-07T16:22:56Z",
+      "side": 1,
+      "message": "With I62ab1cc6 we can remove microg.xml entirely.",
+      "revId": "42a8329ac84a327cef8c4c8beeeef8d25b78c6aa",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
