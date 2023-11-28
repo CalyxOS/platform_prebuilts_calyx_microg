@@ -13,19 +13,19 @@ LOCAL_OPTIONAL_USES_LIBRARIES := org.apache.http.legacy androidx.window.extensio
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := GsfProxy
-LOCAL_SRC_FILES := GsfProxy/services-framework-proxy-release-unsigned.apk
+LOCAL_MODULE := FakeStore
+LOCAL_SRC_FILES := GmsCore/vending-app-default-release-unsigned.apk
 LOCAL_CERTIFICATE := $(LOCAL_PATH)/certs/microg
 LOCAL_MODULE_CLASS := APPS
+LOCAL_PRIVILEGED_MODULE := true
 LOCAL_PRODUCT_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := FakeStore
-LOCAL_SRC_FILES := FakeStore/fake-store-release-unsigned.apk
+LOCAL_MODULE := GsfProxy
+LOCAL_SRC_FILES := GsfProxy/services-framework-proxy-release-unsigned.apk
 LOCAL_CERTIFICATE := $(LOCAL_PATH)/certs/microg
 LOCAL_MODULE_CLASS := APPS
-LOCAL_PRIVILEGED_MODULE := true
 LOCAL_PRODUCT_MODULE := true
 include $(BUILD_PREBUILT)
 
