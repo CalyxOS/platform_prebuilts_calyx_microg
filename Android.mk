@@ -22,7 +22,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := FakeStore
-LOCAL_SRC_FILES := FakeStore/fake-store-release-unsigned.apk
+LOCAL_SRC_FILES := FakeStore/vending-app-default-release-unsigned.apk
 LOCAL_CERTIFICATE := $(LOCAL_PATH)/certs/microg
 LOCAL_MODULE_CLASS := APPS
 LOCAL_PRIVILEGED_MODULE := true
