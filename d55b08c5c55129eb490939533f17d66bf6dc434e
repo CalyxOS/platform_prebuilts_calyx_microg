@@ -16,6 +16,23 @@
       "message": "Quick smoke test is fine.",
       "revId": "d55b08c5c55129eb490939533f17d66bf6dc434e",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "efe1d8be_3834a538",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-11-29T14:26:25Z",
+      "side": 1,
+      "message": "Was this built without the key for MLS? That part isn\u0027t working + not showing up in settings.\n\nOther than that it seems okay. Tested with ntfy before ever opening microG Settings.",
+      "revId": "d55b08c5c55129eb490939533f17d66bf6dc434e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
