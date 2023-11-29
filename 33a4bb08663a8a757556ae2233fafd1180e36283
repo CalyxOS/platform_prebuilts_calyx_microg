@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e221fda4_7e3d43de",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-11-29T16:50:31Z",
+      "side": 1,
+      "message": "It\u0027s working but https://webauthn.io is not working, even with Chrome.\n\nOn stock it pops up a prompt to create a passkey. It\u0027s not working with previous microG either though, on Android 14 anyway.\n\nMaybe this has been broken for a while and we would need this: https://review.calyxos.org/c/CalyxOS/platform_external_microg_GmsCore/+/22518",
+      "revId": "33a4bb08663a8a757556ae2233fafd1180e36283",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
