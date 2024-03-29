@@ -19,6 +19,7 @@ LOCAL_CERTIFICATE := $(LOCAL_PATH)/certs/microg
 LOCAL_MODULE_CLASS := APPS
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_PRODUCT_MODULE := true
+LOCAL_OPTIONAL_USES_LIBRARIES := androidx.window.extensions androidx.window.sidecar
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
