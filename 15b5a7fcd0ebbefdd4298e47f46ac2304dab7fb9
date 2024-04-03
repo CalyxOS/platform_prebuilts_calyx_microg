@@ -16,6 +16,24 @@
       "message": "`04-03 16:57:42.083  4853  4853 E AndroidRuntime: java.lang.RuntimeException: Unable to instantiate application androidx.multidex.MultiDexApplication package com.google.android.gms: android.content.res.Resources$NotFoundException: Unable to find resource ID #0x7f140003`\n\nLikely a bad build somewhere",
       "revId": "15b5a7fcd0ebbefdd4298e47f46ac2304dab7fb9",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7d486809_673f3bcc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-04-03T11:39:50Z",
+      "side": 1,
+      "message": "May have been a bad OS build, since I didn\u0027t installclean.\n\ninstallclean looks ok, need to verify though.",
+      "parentUuid": "462c4203_52a9bc4e",
+      "revId": "15b5a7fcd0ebbefdd4298e47f46ac2304dab7fb9",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
