@@ -16,6 +16,24 @@
       "message": "Don\u0027t we also need to remove it from Android.mk?",
       "revId": "6a1fea6255fd8454ff2756352ddd4978d3358df1",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f3dece55_54ba84a4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-07-03T13:19:47Z",
+      "side": 1,
+      "message": "I could have sworn I did *not* check the box for Resolved...",
+      "parentUuid": "9535b503_16e2b2da",
+      "revId": "6a1fea6255fd8454ff2756352ddd4978d3358df1",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
