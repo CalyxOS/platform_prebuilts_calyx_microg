@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7b7802fb_52b5f847",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-07-08T16:59:46Z",
+      "side": 1,
+      "message": "Thanks, noticed the issue you fixed since it wouldn\u0027t build as it was, but I hadn\u0027t uploaded the fix yet.",
+      "revId": "7292f8b033b4bc725511c1dc5caacb9d917eb829",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
